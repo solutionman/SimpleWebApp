@@ -21,6 +21,14 @@ public class SimpleServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<h1>Hello simple web application</h1>");
+        out.println("let's try some calculations: </br>");
+        out.println("<input type='text' size='20'></input>");
+        int a = 1;
+        int b = 2;
+        int c = a + b;
+        out.printf("a = %d, b = %d </br>", a, b);
+        out.println();
+        out.printf("c = %d  (a + b)", c);
         out.flush();
     }
 }

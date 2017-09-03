@@ -1,9 +1,4 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: dima
-  Date: 26/08/17
-  Time: 22:10
-  To change this template use File | Settings | File Templates.
 
   http://localhost:8080/hello.jsp
 

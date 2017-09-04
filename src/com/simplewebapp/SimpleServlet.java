@@ -26,6 +26,7 @@ public class SimpleServlet extends HttpServlet {
         int a = 1;
         int b = 2;
         int c = a + b;
+        out.println("</br>");
         out.printf("a = %d, b = %d </br>", a, b);
         out.println();
         out.printf("c = %d  (a + b)", c);

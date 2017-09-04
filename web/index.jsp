@@ -1,16 +1,23 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: dima
-  Date: 8/27/17
-  Time: 12:43 AM
-  To change this template use File | Settings | File Templates.
+  Simple WebApp for testing and learning
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Simple Web Application</title>
   </head>
   <body>
-  $END$
+  <div>
+    <%
+      for(int i = 0; i <=5; ++i){
+        out.println("Simple WebApp <br/>");
+      }
+    %>
+  </div>
+  <div>
+    <p>Let's make some calculations</p>
+    <p>Current time on server: <%= new java.util.Date()  %></p>
+  </div>
+
   </body>
 </html>

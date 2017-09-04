@@ -16,6 +16,17 @@
   </div>
   <div>
     <p>Let's make some calculations</p>
+    <form action="SimpleCalculations.jsp">
+
+        First Number: <input type="text" name="FirstNumber">
+
+        Second Nunber: <input type="text" name="SecondNumber">
+
+        <br/><br/>
+
+        <input type="submit" value="Submit">
+
+    </form>
     <p>Current time on server: <%= new java.util.Date()  %></p>
   </div>
 

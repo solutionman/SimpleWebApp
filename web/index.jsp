@@ -19,12 +19,12 @@
     <form action="SimpleCalculations.jsp">
 
         First Number: <input type="text" name="FirstNumber">
-
+        <br/>+<br/>
         Second Nunber: <input type="text" name="SecondNumber">
 
         <br/><br/>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Calculate">
 
     </form>
     <p>Current time on server: <%= new java.util.Date()  %></p>

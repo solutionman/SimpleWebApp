@@ -13,7 +13,9 @@
         int result = firstNumberInt + secondNuberInt;
         out.println(result);
     %>
+    <br>
 
+<a href="index.jsp">Back to main page</a>
 
 </body>
 </html>
